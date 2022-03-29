@@ -3,7 +3,7 @@
     padding: 0px; 
 }
 
-html{
+body{
     font-family: 'Oswald', sans-serif;
 }
 
@@ -26,12 +26,27 @@ html{
     align-items: center;
     height: 90%; 
     
+    
 }
 
 .welcome .navbar-brand{
     font-size: 2rem;
     font-weight: 700; 
 }
+
+.welcome-script p{
+    font-size: 25px;
+    font-weight: 600px; 
+
+}
+
+.welcome-script h1{
+    font-size: 4.5rem;
+    line-height: 90px;
+    font-weight: 700;
+    word-spacing: 0.1px;
+}
+
 .welcome .navbar-collapse {
     flex-grow: 0;
 }
@@ -54,4 +69,44 @@ html{
     color: #E62B4A; 
 }
 
+.welcome-script button{
+    background-color: #e62b4a;
+    border: 1px solid #e62b4a;
+    padding: 15px 25px; 
+    font-size:16px;
+    border-radius: 0px;
+}
 
+.animated-arrow i{
+    animation: arrowDown 1s linear 0s infinite;
+}
+
+.product{
+    padding: 90px 0; 
+    text-align: center;
+    background-color: black;
+    color: white;
+    letter-spacing: 1;
+}
+
+.product h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.product p:first-child{
+    font-size: 0.83em;
+    font-weight: 700;
+}
+.product p:last-child{
+    color: #888888; 
+    font-weight: 700;
+    font-size: 16px;
+}
+
+@media(max-width: 600px){
+    .welcome-script h1{
+        font-size: 50px;
+    }
+}
