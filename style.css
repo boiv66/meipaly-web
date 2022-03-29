@@ -2,3 +2,56 @@
     margin: 0px; 
     padding: 0px; 
 }
+
+html{
+    font-family: 'Oswald', sans-serif;
+}
+
+.welcome{
+    color: white; 
+    background-image: url(./img/home_slider.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 700px; 
+    background-position: center;
+    
+   
+
+}
+
+.welcome-script{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%; 
+    
+}
+
+.welcome .navbar-brand{
+    font-size: 2rem;
+    font-weight: 700; 
+}
+.welcome .navbar-collapse {
+    flex-grow: 0;
+}
+.navbar-nav li{
+    margin-left:30px;
+    margin-right:30px;
+    font-size: 17px;
+    font-weight: 500;
+ 
+  }
+
+.navbar-nav .nav-item .nav-link{
+    color:white;
+    
+}
+
+
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: #E62B4A; 
+}
+
+
