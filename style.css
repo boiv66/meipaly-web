@@ -105,25 +105,25 @@ body{
     font-size: 16px;
 }
 
-.portfolio{
+.portfolio, .blog{
     padding: 100px 0;
     background-color: white;
     text-align: center;
 }
 
-.portfolio p:first-child{
+.portfolio p:first-child, .blog p:first-child{
     font-size: 14px; 
     font-weight: 400; 
     color: #888888; 
 }
 
-.portfolio h2{
+.portfolio h2, .blog h2{
     font-size: 50px;
     font-weight: 400;
     margin-bottom: 20px;
 }
 
-.portfolio p:last-child{
+.portfolio p:last-child, .blog p:last-child{
     font-size: 16px;
     font-weight: 700;
     color: #888888; 
@@ -136,6 +136,14 @@ body{
     grid-gap: 30px;
 }
 
+.blog{
+    padding: 100px 0; 
+    background-color: #f3f3f3;
+}
+
+/* .blog-container img{
+    filter: grayscale(30%) contrast(50%);
+} */
 
 .portfolio .portfolio-container .portfolio-item img{
     min-width: 100%; 
