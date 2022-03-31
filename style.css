@@ -151,8 +151,20 @@ body{
     object-fit: cover;
     filter: grayscale(100%) contrast(50%);
 }
+@media (max-width: 770px){
+    .portfolio .portfolio-container{
+        grid-template-columns: 1fr 1fr;
+    }
+     
+}
 @media(max-width: 600px){
     .welcome-script h1{
         font-size: 50px;
+    }
+}
+
+@media(max-width: 540px){
+    .portfolio .portfolio-container{
+        grid-template-columns: 1fr;
     }
 }
