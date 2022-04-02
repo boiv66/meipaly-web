@@ -242,14 +242,25 @@ body{
 .stat{
     padding: 100px 0; 
     background-color: black;
+  
 }
 
 .stat .stat__content{
     color: white; 
     display: flex; 
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 0 auto; 
+   
+}
+
+.stat .stat__content h2{
+    font-size: 60px;
+    font-weight: 300; 
+}
+
+.stat .stat__content p{
+    font-size: 20px; 
 }
 
 
