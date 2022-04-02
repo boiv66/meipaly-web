@@ -83,7 +83,7 @@ body{
     animation: arrowDown 1s linear 0s infinite;
 }
 
-.product{
+.product, .service{
     padding: 90px 0; 
     text-align: center;
     background-color: black;
@@ -91,17 +91,18 @@ body{
     letter-spacing: 1;
 }
 
-.product h2{
+.product h2, .service h2{
     font-size: 50px;
     font-weight: 400;
     margin-bottom: 20px;
 }
 
-.product p:first-child{
+.product p:first-child, .service p:first-child{
     font-size: 0.83em;
-    font-weight: 700;
+    font-weight: 300;
+    color: #e62b4a;
 }
-.product p:last-child{
+.product p:nth-child(3), .service p:nth-child(3){
     color: #888888; 
     font-weight: 700;
     font-size: 16px;
@@ -172,29 +173,7 @@ body{
 .blog-container .row{
     margin:0; 
 }
-@media (max-width: 1100){
-    .portfolio .portfolio-container{
-        margin: 3% 5%; 
-    }
-}
-@media (max-width: 800px){
-    .portfolio .portfolio-container{
-        grid-template-columns: 1fr 1fr;
-        margin: 3% 3%; 
-    }
-     
-}
-@media(max-width: 600px){
-    .welcome-script h1{
-        font-size: 50px;
-    }
-}
 
-@media(max-width: 540px){
-    .portfolio .portfolio-container{
-        grid-template-columns: 1fr;
-    }
-}
 
 /* .product .product__carousel{} */
 
@@ -259,8 +238,84 @@ body{
     font-weight: 300; 
 }
 
+.service{
+    background-image: url(./img/bussiness_img_1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.service iframe{
+    width: 80%; 
+    height: 700px; 
+}
 .stat .stat__content p{
     font-size: 20px; 
+}
+
+@media (max-width: 1100){
+    .portfolio .portfolio-container{
+        margin: 3% 5%; 
+    }
+}
+@media (max-width: 800px){
+    .portfolio .portfolio-container{
+        grid-template-columns: 1fr 1fr;
+        margin: 3% 3%; 
+    }
+    .stat .stat__content h2{
+        font-size: 40px;
+       
+    }
+    
+    .stat .stat__content p{
+        font-size: 15px; 
+    }
+}
+@media(max-width: 600px){
+    .welcome-script h1{
+        font-size: 50px;
+    }
+}
+
+@media(max-width: 540px){
+    .portfolio .portfolio-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 440px){
+    .product h2{
+        font-size: 30px; 
+        padding: 0 30px;
+    }
+
+    .product .product-content p:nth-child(3){
+        padding: 0 30px; 
+        font-size: 12px;
+    }
+
+    .portfolio, .blog {
+        padding: 50px 0; 
+    }
+    .portfolio h2, .blog h2{
+        font-size: 30px;
+    }
+
+    .portfolio p:nth-child(3), .blog p:nth-child(3){
+        padding: 0 30px; 
+    }
+
+    .stat{
+        padding: 50px 10px; 
+    }
+    .stat .stat__content h2{
+        font-size: 30px;
+       
+    }
+    
+    .stat .stat__content p{
+        font-size: 10px; 
+    }
+
 }
 
 
