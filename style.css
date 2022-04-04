@@ -404,6 +404,14 @@ footer {
     font-size: 12px;
   }
 
+  .product .product-content.container{
+    padding: 0 40px; 
+  }
+
+  .product .product__carousel .product__carousel__item{
+    margin: 0 10px;
+  }
+
   .portfolio,
   .blog {
     padding: 50px 0;
