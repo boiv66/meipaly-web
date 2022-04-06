@@ -113,7 +113,10 @@ body {
   font-size: 16px;
 }
 
-.slick-dots li button{
+/* .slick-dots {
+} */
+
+.slick-dotted .slick-dots li button:before{
  
   color: white; 
   font-size: 14px; 
