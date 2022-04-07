@@ -113,8 +113,13 @@ body {
   font-size: 16px;
 }
 
-/* .slick-dots {
-} */
+.slick-dots{
+  bottom: -60px;
+}
+
+.slick-dotted .slick-dots .slick-active button:before {
+  color:#e62b4a; 
+}
 
 .slick-dotted .slick-dots li button:before{
  
@@ -201,7 +206,7 @@ body {
   width: 214px;
   background-color: #f3f3f3;
   color: #848482;
-  margin: 0px 20px;
+  margin: 0px 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
